@@ -1,0 +1,25 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "A simple chat application with one-to-one communication, group chat, and broadcasting capabilities for admins.",
+  "main": "src/server/app.js",
+  "scripts": {
+    "start": "node src/server/app.js",
+    "dev": "nodemon src/server/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [
+    "chat",
+    "socket.io",
+    "express",
+    "real-time"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
